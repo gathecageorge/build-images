@@ -22,6 +22,6 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v2
         with:
-          file: {context}/Nimbus.Dockerfile-6sec
+          file: Nimbus.Dockerfile-6sec
           push: true
           tags: gathecageorge/nimbus-eth2:slot
