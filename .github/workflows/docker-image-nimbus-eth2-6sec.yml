@@ -24,4 +24,4 @@ jobs:
         with:
           file: Nimbus.Dockerfile-6sec
           push: true
-          tags: gathecageorge/nimbus-eth2:slot
+          tags: gathecageorge/nimbus-eth2:slot6
