@@ -24,4 +24,4 @@ jobs:
         with:
           file: eth2-testnet-genesis.Dockerfile
           push: true
-          tags: gathecageorge/eth2-testnet-genesis:test
+          tags: gathecageorge/eth2-testnet-genesis:latest

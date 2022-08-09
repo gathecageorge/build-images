@@ -8,7 +8,7 @@ This is a tool to create an Eth2 testnet genesis state, without having to make d
 
 You can run this using docker as follows
 
-`docker run --rm -ti gathecageorge/eth2-test-genesis:latest help`
+`docker run --rm -ti gathecageorge/eth2-testnet-genesis:latest help`
 
 &nbsp;
 
