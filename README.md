@@ -1,5 +1,21 @@
 # build-images
 
+## `merged_testnet_tools`
+
+<https://github.com/gathecageorge/ethereum-genesis-generator>
+
+This is a tool to create an ethereum consensus/execution layer testnet genesis and expose it via a webserver for testing purposes.
+
+You can run this using docker as follows
+
+`docker run --rm -ti gathecageorge/merged_testnet_tools:latest help`
+
+&nbsp;
+
+---
+
+&nbsp;
+
 ## `eth2-testnet-genesis`
 
 <https://github.com/protolambda/eth2-testnet-genesis>
