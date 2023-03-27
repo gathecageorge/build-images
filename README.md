@@ -1,5 +1,19 @@
 # build-images
 
+## `grafana-sqlite-to-postgres`
+
+<https://github.com/wbh1/grafana-sqlite-to-postgres>
+
+This is a tool to migrate grafana sqlite database to postgres.
+
+You can run this using docker as follows
+
+`docker run --rm -ti -v <PATH_TO_DB_FILE>:/grafana.db gathecageorge/grafana-sqlite-to-postgres /grafana.db "postgres://<USERNAME>:<PASSWORD>@<HOST>:5432/<DATABASE_NAME>?sslmode=disable"`
+
+&nbsp;
+
+---
+
 ## `merged_testnet_tools`
 
 <https://github.com/gathecageorge/ethereum-genesis-generator>
